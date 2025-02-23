@@ -1,0 +1,18 @@
+# Xcode-specific files
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+
+# General system files
+.DS_Store
+.swp
+
+# Environment files
+.env
+*.log
+
+# Dependency directories
+node_modules/
+Pods/
