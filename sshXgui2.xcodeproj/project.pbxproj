@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D029E9112D69BF7400A7FF42 /* SSHXGui.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029E9102D69BF7400A7FF42 /* SSHXGui.swift */; };
+		D029E9132D69BFF000A7FF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029E9122D69BFF000A7FF42 /* AppDelegate.swift */; };
+		D029E9152D69C0B100A7FF42 /* SSHXGui.xib in Resources */ = {isa = PBXBuildFile; fileRef = D029E9142D69C0B100A7FF42 /* SSHXGui.xib */; };
+		D029E9172D69C4FA00A7FF42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D029E9162D69C4FA00A7FF42 /* Info.plist */; };
+		D0A57C192D6A3D1800DAEB9F /* sshXgui.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D029E8F42D69BEF000A7FF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D029E8DC2D69BEEE00A7FF42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D029E8E32D69BEEE00A7FF42;
+			remoteInfo = sshXgui2;
+		};
+		D029E8FE2D69BEF000A7FF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D029E8DC2D69BEEE00A7FF42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D029E8E32D69BEEE00A7FF42;
+			remoteInfo = sshXgui2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D029E8E42D69BEEE00A7FF42 /* sshXgui2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sshXgui2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D029E8F32D69BEF000A7FF42 /* sshXgui2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sshXgui2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D029E8FD2D69BEF000A7FF42 /* sshXgui2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sshXgui2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D029E9102D69BF7400A7FF42 /* SSHXGui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHXGui.swift; sourceTree = "<group>"; };
+		D029E9122D69BFF000A7FF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D029E9142D69C0B100A7FF42 /* SSHXGui.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSHXGui.xib; sourceTree = "<group>"; };
+		D029E9162D69C4FA00A7FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sshXgui.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D0A57C2D2D6B199800DAEB9F /* Exceptions for "sshXgui2" folder in "sshXgui2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D029E8E32D69BEEE00A7FF42 /* sshXgui2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D029E8E62D69BEEE00A7FF42 /* sshXgui2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D0A57C2D2D6B199800DAEB9F /* Exceptions for "sshXgui2" folder in "sshXgui2" target */,
+			);
+			path = sshXgui2;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D029E8E12D69BEEE00A7FF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8F02D69BEF000A7FF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8FA2D69BEF000A7FF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D029E8DB2D69BEEE00A7FF42 = {
+			isa = PBXGroup;
+			children = (
+				D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */,
+				D029E9162D69C4FA00A7FF42 /* Info.plist */,
+				D029E9102D69BF7400A7FF42 /* SSHXGui.swift */,
+				D029E9122D69BFF000A7FF42 /* AppDelegate.swift */,
+				D029E9142D69C0B100A7FF42 /* SSHXGui.xib */,
+				D029E8E62D69BEEE00A7FF42 /* sshXgui2 */,
+				D029E8E52D69BEEE00A7FF42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D029E8E52D69BEEE00A7FF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D029E8E42D69BEEE00A7FF42 /* sshXgui2.app */,
+				D029E8F32D69BEF000A7FF42 /* sshXgui2Tests.xctest */,
+				D029E8FD2D69BEF000A7FF42 /* sshXgui2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D029E8E32D69BEEE00A7FF42 /* sshXgui2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D029E9072D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2" */;
+			buildPhases = (
+				D029E8E02D69BEEE00A7FF42 /* Sources */,
+				D029E8E12D69BEEE00A7FF42 /* Frameworks */,
+				D029E8E22D69BEEE00A7FF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D029E8E62D69BEEE00A7FF42 /* sshXgui2 */,
+			);
+			name = sshXgui2;
+			packageProductDependencies = (
+			);
+			productName = sshXgui2;
+			productReference = D029E8E42D69BEEE00A7FF42 /* sshXgui2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D029E8F22D69BEF000A7FF42 /* sshXgui2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D029E90A2D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2Tests" */;
+			buildPhases = (
+				D029E8EF2D69BEF000A7FF42 /* Sources */,
+				D029E8F02D69BEF000A7FF42 /* Frameworks */,
+				D029E8F12D69BEF000A7FF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D029E8F52D69BEF000A7FF42 /* PBXTargetDependency */,
+			);
+			name = sshXgui2Tests;
+			packageProductDependencies = (
+			);
+			productName = sshXgui2Tests;
+			productReference = D029E8F32D69BEF000A7FF42 /* sshXgui2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D029E8FC2D69BEF000A7FF42 /* sshXgui2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D029E90D2D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2UITests" */;
+			buildPhases = (
+				D029E8F92D69BEF000A7FF42 /* Sources */,
+				D029E8FA2D69BEF000A7FF42 /* Frameworks */,
+				D029E8FB2D69BEF000A7FF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D029E8FF2D69BEF000A7FF42 /* PBXTargetDependency */,
+			);
+			name = sshXgui2UITests;
+			packageProductDependencies = (
+			);
+			productName = sshXgui2UITests;
+			productReference = D029E8FD2D69BEF000A7FF42 /* sshXgui2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D029E8DC2D69BEEE00A7FF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D029E8E32D69BEEE00A7FF42 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					D029E8F22D69BEF000A7FF42 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D029E8E32D69BEEE00A7FF42;
+					};
+					D029E8FC2D69BEF000A7FF42 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D029E8E32D69BEEE00A7FF42;
+					};
+				};
+			};
+			buildConfigurationList = D029E8DF2D69BEEE00A7FF42 /* Build configuration list for PBXProject "sshXgui2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D029E8DB2D69BEEE00A7FF42;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D029E8E52D69BEEE00A7FF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D029E8E32D69BEEE00A7FF42 /* sshXgui2 */,
+				D029E8F22D69BEF000A7FF42 /* sshXgui2Tests */,
+				D029E8FC2D69BEF000A7FF42 /* sshXgui2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D029E8E22D69BEEE00A7FF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D029E9152D69C0B100A7FF42 /* SSHXGui.xib in Resources */,
+				D0A57C192D6A3D1800DAEB9F /* sshXgui.icns in Resources */,
+				D029E9172D69C4FA00A7FF42 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8F12D69BEF000A7FF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8FB2D69BEF000A7FF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D029E8E02D69BEEE00A7FF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D029E9132D69BFF000A7FF42 /* AppDelegate.swift in Sources */,
+				D029E9112D69BF7400A7FF42 /* SSHXGui.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8EF2D69BEF000A7FF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D029E8F92D69BEF000A7FF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D029E8F52D69BEF000A7FF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D029E8E32D69BEEE00A7FF42 /* sshXgui2 */;
+			targetProxy = D029E8F42D69BEF000A7FF42 /* PBXContainerItemProxy */;
+		};
+		D029E8FF2D69BEF000A7FF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D029E8E32D69BEEE00A7FF42 /* sshXgui2 */;
+			targetProxy = D029E8FE2D69BEF000A7FF42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D029E9052D69BEF000A7FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D029E9062D69BEF000A7FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D029E9082D69BEF000A7FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = sshXgui2/sshXgui2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sshXgui2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "hello sshXgui";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = SSHXGui;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D029E9092D69BEF000A7FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = sshXgui2/sshXgui2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sshXgui2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "hello sshXgui";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = SSHXGui;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D029E90B2D69BEF000A7FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sshXgui2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sshXgui2";
+			};
+			name = Debug;
+		};
+		D029E90C2D69BEF000A7FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sshXgui2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sshXgui2";
+			};
+			name = Release;
+		};
+		D029E90E2D69BEF000A7FF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sshXgui2;
+			};
+			name = Debug;
+		};
+		D029E90F2D69BEF000A7FF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4Z437LFV9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freimann.sshXgui2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sshXgui2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D029E8DF2D69BEEE00A7FF42 /* Build configuration list for PBXProject "sshXgui2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D029E9052D69BEF000A7FF42 /* Debug */,
+				D029E9062D69BEF000A7FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D029E9072D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D029E9082D69BEF000A7FF42 /* Debug */,
+				D029E9092D69BEF000A7FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D029E90A2D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D029E90B2D69BEF000A7FF42 /* Debug */,
+				D029E90C2D69BEF000A7FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D029E90D2D69BEF000A7FF42 /* Build configuration list for PBXNativeTarget "sshXgui2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D029E90E2D69BEF000A7FF42 /* Debug */,
+				D029E90F2D69BEF000A7FF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D029E8DC2D69BEEE00A7FF42 /* Project object */;
+}
