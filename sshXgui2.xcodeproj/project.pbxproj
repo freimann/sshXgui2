@@ -11,7 +11,6 @@
 		D029E9132D69BFF000A7FF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D029E9122D69BFF000A7FF42 /* AppDelegate.swift */; };
 		D029E9152D69C0B100A7FF42 /* SSHXGui.xib in Resources */ = {isa = PBXBuildFile; fileRef = D029E9142D69C0B100A7FF42 /* SSHXGui.xib */; };
 		D029E9172D69C4FA00A7FF42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D029E9162D69C4FA00A7FF42 /* Info.plist */; };
-		D0A57C192D6A3D1800DAEB9F /* sshXgui.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		D029E9122D69BFF000A7FF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D029E9142D69C0B100A7FF42 /* SSHXGui.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSHXGui.xib; sourceTree = "<group>"; };
 		D029E9162D69C4FA00A7FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sshXgui.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -91,7 +89,6 @@
 		D029E8DB2D69BEEE00A7FF42 = {
 			isa = PBXGroup;
 			children = (
-				D0A57C182D6A3D1800DAEB9F /* sshXgui.icns */,
 				D029E9162D69C4FA00A7FF42 /* Info.plist */,
 				D029E9102D69BF7400A7FF42 /* SSHXGui.swift */,
 				D029E9122D69BFF000A7FF42 /* AppDelegate.swift */,
@@ -227,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D029E9152D69C0B100A7FF42 /* SSHXGui.xib in Resources */,
-				D0A57C192D6A3D1800DAEB9F /* sshXgui.icns in Resources */,
 				D029E9172D69C4FA00A7FF42 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
